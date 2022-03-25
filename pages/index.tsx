@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           m: 3,
           p: 3,
           width: "90%",
-          minWidth: "1000px",
+          maxWidth: "1000px",
           border: "2px solid",
           borderColor: (t) => t.palette.primary.main,
           borderRadius: "0.5em",
